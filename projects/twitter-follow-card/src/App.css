@@ -1,14 +1,7 @@
-body {
-  margin: 0;
-  background: #222;
-  font-family: system-ui;
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
-}
-
-.App {
+.tw-followCard {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  justify-content: space-between;
 }
