@@ -1,3 +1,4 @@
+// const CAT_ENDPOINT_IMAGE_URL = `https://cataas.com/cat/says/${firsWord}?size=50`
 const CAT_ENDPOINT_RANDOM_FACT = 'https://catfact.ninja/fact'
 
 export const getRandomFact = () => {
