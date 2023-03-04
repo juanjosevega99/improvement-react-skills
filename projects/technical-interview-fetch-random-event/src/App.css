@@ -6,3 +6,16 @@ main {
   margin: 0 auto;
   font-family: system-ui;
 }
+
+/* use this with a section to align in horizontal way */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+section img {
+  max-width: 320px;
+  height: auto;
+}
