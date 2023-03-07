@@ -18,6 +18,10 @@ export function TwitterFollowCard ({ children, userName, initialIsFollowing }) {
           src={`https://unavatar.io/${userName}`}
           alt='the avatar in twitter'
         />
+        <div className='tw-followCard-info'>
+          <strong>{children}</strong>
+          <span className='tw-followCard-infoUserName'>@{userName}</span>
+        </div>
       </header>
 
       <aside>
