@@ -3,7 +3,9 @@ import './App.css'
 function App () {
   return (
     <div>
-      Movie Finder
+      <header>
+        <h1>Movie Finder</h1>
+      </header>
     </div>
   )
 }
